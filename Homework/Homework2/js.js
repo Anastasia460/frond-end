@@ -12,7 +12,7 @@ if (enterYourName && enterYourSurname && enterYorNickname) {
   alert(`Добро пожаловать ${enterYourName}`);
 } else alert("Добро пожаловать Noname!");
 
-// задание 2
+// Задание 2
 let number1 = "";
 let number2 = "";
 let number3 = "";
@@ -48,9 +48,13 @@ age > 17
   : alert(`Простите, ${nameCustom}, доступ закрыт!`);
 
 // Задание 4
-let enterNumber = +prompt("Введите число");
-if (isNaN(enterNumber) == false && enterNumber >= 0 && enterNumber < 10) {
-  switch (enterNumber) {
+let enterNumber0_9 = +prompt("Введите число");
+if (
+  isNaN(enterNumber0_9) == false &&
+  enterNumber0_9 >= 0 &&
+  enterNumber0_9 < 10
+) {
+  switch (enterNumber0_9) {
     case 0:
       alert("Ноль");
       break;
@@ -83,8 +87,8 @@ if (isNaN(enterNumber) == false && enterNumber >= 0 && enterNumber < 10) {
       break;
   }
 } else if (
-  isNaN(enterNumber) == false &&
-  (enterNumber < 0 || enterNumber >= 10)
+  isNaN(enterNumber0_9) == false &&
+  (enterNumber0_9 < 0 || enterNumber0_9 >= 10)
 ) {
   alert("Введено неверное число");
 } else {
