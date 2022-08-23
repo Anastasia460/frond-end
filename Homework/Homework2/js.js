@@ -90,7 +90,7 @@ if (
   isNaN(enterNumber0_9) == false &&
   (enterNumber0_9 < 0 || enterNumber0_9 >= 10)
 ) {
-  alert("Введено неверное число");
+  alert("Введено неверное число!");
 } else {
-  alert("Введено не число");
+  alert("Введено не число!");
 }
